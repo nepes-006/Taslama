@@ -25,7 +25,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&fit=crop',
     category: 'Teaching & Pedagogy', categoryTm: 'Mugallymçylyk we pedagogika', categoryEn: 'Teaching & Pedagogy',
     level: 'Intermediate', rating: 4.9, studentsEnrolled: 450,
-    basePrice: 2500, price15: null, price30: null, weeks: 18,
+    basePrice: 625, price15: null, price30: null, weeks: 18,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 2
@@ -42,7 +42,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&fit=crop',
     category: 'Computer Skills', categoryTm: 'Kompýuter endikleri', categoryEn: 'Computer Skills',
     level: 'Beginner', rating: 4.7, studentsEnrolled: 680,
-    basePrice: 783, price15: 665, price30: 549, weeks: 9,
+    basePrice: 196, price15: 166, price30: 138, weeks: 9,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 3
@@ -59,7 +59,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&fit=crop',
     category: 'Mathematics', categoryTm: 'Matematika', categoryEn: 'Mathematics',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 520,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 4
@@ -76,7 +76,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&fit=crop',
     category: 'Mathematics', categoryTm: 'Matematika', categoryEn: 'Mathematics',
     level: 'Advanced', rating: 4.8, studentsEnrolled: 310,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 5
@@ -93,7 +93,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&fit=crop',
     category: 'Sciences', categoryTm: 'Ylymlar', categoryEn: 'Sciences',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 380,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 6
@@ -110,7 +110,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&fit=crop',
     category: 'Sciences', categoryTm: 'Ylymlar', categoryEn: 'Sciences',
     level: 'Advanced', rating: 4.7, studentsEnrolled: 220,
-    basePrice: 2050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 512, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 7
@@ -127,7 +127,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&fit=crop',
     category: 'Sciences', categoryTm: 'Ylymlar', categoryEn: 'Sciences',
     level: 'Intermediate', rating: 4.7, studentsEnrolled: 340,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 8
@@ -144,7 +144,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&fit=crop',
     category: 'Sciences', categoryTm: 'Ylymlar', categoryEn: 'Sciences',
     level: 'Advanced', rating: 4.6, studentsEnrolled: 190,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 9
@@ -161,7 +161,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&fit=crop',
     category: 'Sciences', categoryTm: 'Ylymlar', categoryEn: 'Sciences',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 310,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 10
@@ -178,7 +178,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&fit=crop',
     category: 'Sciences', categoryTm: 'Ylymlar', categoryEn: 'Sciences',
     level: 'Advanced', rating: 4.7, studentsEnrolled: 180,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 11
@@ -195,7 +195,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&fit=crop',
     category: 'Computer Skills', categoryTm: 'Kompýuter endikleri', categoryEn: 'Computer Skills',
     level: 'Intermediate', rating: 4.7, studentsEnrolled: 290,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 12
@@ -212,7 +212,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Beginner', rating: 4.9, studentsEnrolled: 750,
-    basePrice: 1050, price15: 893, price30: 735, weeks: 12,
+    basePrice: 262, price15: 224, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 13
@@ -229,7 +229,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 620,
-    basePrice: 1163, price15: 988, price30: 814, weeks: 12,
+    basePrice: 291, price15: 247, price30: 204, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 14
@@ -246,7 +246,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Beginner', rating: 4.9, studentsEnrolled: 480,
-    basePrice: 1000, price15: 850, price30: 700, weeks: 12,
+    basePrice: 250, price15: 212, price30: 175, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 15
@@ -263,7 +263,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Beginner', rating: 4.9, studentsEnrolled: 340,
-    basePrice: 1600, price15: 1360, price30: 1120, weeks: 20,
+    basePrice: 400, price15: 340, price30: 280, weeks: 20,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 16
@@ -280,7 +280,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 280,
-    basePrice: 1505, price15: 1230, price30: 1053, weeks: 19,
+    basePrice: 376, price15: 308, price30: 264, weeks: 19,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 17
@@ -297,7 +297,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Advanced', rating: 4.8, studentsEnrolled: 180,
-    basePrice: 1200, price15: 1108, price30: 913, weeks: 13,
+    basePrice: 300, price15: 277, price30: 228, weeks: 13,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 17b
@@ -314,7 +314,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Beginner', rating: 4.9, studentsEnrolled: 210,
-    basePrice: 1095, price15: 930, price30: 766, weeks: 16,
+    basePrice: 274, price15: 232, price30: 192, weeks: 16,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 18
@@ -331,7 +331,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 160,
-    basePrice: 1095, price15: 930, price30: 766, weeks: 14,
+    basePrice: 274, price15: 232, price30: 192, weeks: 14,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 19
@@ -348,7 +348,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Beginner', rating: 4.7, studentsEnrolled: 390,
-    basePrice: 1050, price15: 892, price30: 735, weeks: 12,
+    basePrice: 262, price15: 223, price30: 184, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 20
@@ -365,7 +365,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Beginner', rating: 4.7, studentsEnrolled: 420,
-    basePrice: 1000, price15: 950, price30: 700, weeks: 12,
+    basePrice: 250, price15: 238, price30: 175, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 21
@@ -382,7 +382,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&fit=crop',
     category: 'Languages', categoryTm: 'Diller', categoryEn: 'Languages',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 310,
-    basePrice: 1095, price15: 930, price30: 766, weeks: 14,
+    basePrice: 274, price15: 232, price30: 192, weeks: 14,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 22
@@ -399,7 +399,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&fit=crop',
     category: 'Computer Skills', categoryTm: 'Kompýuter endikleri', categoryEn: 'Computer Skills',
     level: 'Intermediate', rating: 4.6, studentsEnrolled: 520,
-    basePrice: 1150, price15: 978, price30: 805, weeks: 12,
+    basePrice: 288, price15: 244, price30: 202, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 23
@@ -416,7 +416,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&fit=crop',
     category: 'Programming', categoryTm: 'Programirlemek', categoryEn: 'Programming',
     level: 'Beginner', rating: 4.9, studentsEnrolled: 560,
-    basePrice: 1500, price15: 1275, price30: 1050, weeks: 12,
+    basePrice: 375, price15: 319, price30: 262, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 24
@@ -433,7 +433,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&fit=crop',
     category: 'Programming', categoryTm: 'Programirlemek', categoryEn: 'Programming',
     level: 'Beginner', rating: 4.9, studentsEnrolled: 720,
-    basePrice: 1500, price15: 1275, price30: 1050, weeks: 12,
+    basePrice: 375, price15: 319, price30: 262, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 25
@@ -450,7 +450,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&fit=crop',
     category: 'Programming', categoryTm: 'Programirlemek', categoryEn: 'Programming',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 480,
-    basePrice: 2006, price15: 1705, price30: 1405, weeks: 12,
+    basePrice: 502, price15: 426, price30: 352, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 26
@@ -467,7 +467,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&fit=crop',
     category: 'Programming', categoryTm: 'Programirlemek', categoryEn: 'Programming',
     level: 'Intermediate', rating: 4.9, studentsEnrolled: 640,
-    basePrice: 2006, price15: 1705, price30: 1405, weeks: 12,
+    basePrice: 502, price15: 426, price30: 352, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 27
@@ -484,7 +484,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&fit=crop',
     category: 'Programming', categoryTm: 'Programirlemek', categoryEn: 'Programming',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 530,
-    basePrice: 2006, price15: 1705, price30: 1405, weeks: 12,
+    basePrice: 502, price15: 426, price30: 352, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 28
@@ -501,7 +501,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&fit=crop',
     category: 'Programming', categoryTm: 'Programirlemek', categoryEn: 'Programming',
     level: 'Intermediate', rating: 4.9, studentsEnrolled: 490,
-    basePrice: 2120, price15: 1805, price30: 1485, weeks: 12,
+    basePrice: 530, price15: 452, price30: 372, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 29
@@ -518,7 +518,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=800&fit=crop',
     category: 'Programming', categoryTm: 'Programirlemek', categoryEn: 'Programming',
     level: 'Advanced', rating: 4.9, studentsEnrolled: 380,
-    basePrice: 2408, price15: 2047, price30: 1686, weeks: 16,
+    basePrice: 602, price15: 512, price30: 422, weeks: 16,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 30
@@ -535,7 +535,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&fit=crop',
     category: 'Cybersecurity', categoryTm: 'Kiberhowpsuzlyk', categoryEn: 'Cybersecurity',
     level: 'Advanced', rating: 4.9, studentsEnrolled: 410,
-    basePrice: 2806, price15: 2385, price30: 1965, weeks: 12,
+    basePrice: 702, price15: 596, price30: 492, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 31
@@ -552,7 +552,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&fit=crop',
     category: 'Cybersecurity', categoryTm: 'Kiberhowpsuzlyk', categoryEn: 'Cybersecurity',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 350,
-    basePrice: 2406, price15: 2045, price30: 1685, weeks: 12,
+    basePrice: 602, price15: 512, price30: 422, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 32
@@ -569,7 +569,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&fit=crop',
     category: 'Cybersecurity', categoryTm: 'Kiberhowpsuzlyk', categoryEn: 'Cybersecurity',
     level: 'Advanced', rating: 4.9, studentsEnrolled: 290,
-    basePrice: 2806, price15: 2385, price30: 1965, weeks: 12,
+    basePrice: 702, price15: 596, price30: 492, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 33
@@ -586,7 +586,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=800&fit=crop',
     category: 'Computer Graphics', categoryTm: 'Kompýuter grafikasy', categoryEn: 'Computer Graphics',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 460,
-    basePrice: 2406, price15: 2045, price30: 1685, weeks: 12,
+    basePrice: 602, price15: 512, price30: 422, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 34
@@ -603,7 +603,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&fit=crop',
     category: 'Computer Graphics', categoryTm: 'Kompýuter grafikasy', categoryEn: 'Computer Graphics',
     level: 'Intermediate', rating: 4.7, studentsEnrolled: 320,
-    basePrice: 2406, price15: 2045, price30: 1685, weeks: 12,
+    basePrice: 602, price15: 512, price30: 422, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 35
@@ -620,7 +620,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&fit=crop',
     category: 'Computer Graphics', categoryTm: 'Kompýuter grafikasy', categoryEn: 'Computer Graphics',
     level: 'Intermediate', rating: 4.8, studentsEnrolled: 280,
-    basePrice: 2406, price15: 2045, price30: 1685, weeks: 12,
+    basePrice: 602, price15: 512, price30: 422, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 36
@@ -637,7 +637,7 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1536240478700-b869ad10e128?w=800&fit=crop',
     category: 'Computer Graphics', categoryTm: 'Kompýuter grafikasy', categoryEn: 'Computer Graphics',
     level: 'Advanced', rating: 4.8, studentsEnrolled: 210,
-    basePrice: 2406, price15: 2045, price30: 1685, weeks: 12,
+    basePrice: 602, price15: 512, price30: 422, weeks: 12,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
   // 37
@@ -654,7 +654,8 @@ export const courses = [
     thumbnail: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&fit=crop',
     category: 'Robotics', categoryTm: 'Robot tehnikasy', categoryEn: 'Robotics',
     level: 'Advanced', rating: 4.9, studentsEnrolled: 180,
-    basePrice: 3000, price15: 1851, price30: 2100, weeks: 24,
+    basePrice: 750, price15: 463, price30: 525, weeks: 24,
     enrolled: false, progress: 0, certificateEarned: false, lessons: [],
   },
 ]
+

@@ -206,15 +206,6 @@
               </div>
             </div>
 
-            <!-- Bottom CTA -->
-            <div v-if="!isEnrolled" class="bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl p-5 text-white text-center">
-              <p class="font-extrabold text-lg mb-1">Häzir ýazylmak!</p>
-              <p class="text-blue-200 text-xs mb-4">Diňe {{ seatsLeft }} ýer galdy</p>
-              <RouterLink :to="`/course/${course.id}/enroll`"
-                class="block w-full bg-white text-blue-700 font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors text-sm">
-                Kursa ýazylmak
-              </RouterLink>
-            </div>
           </div>
         </div>
       </div>
